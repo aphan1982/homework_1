@@ -130,9 +130,6 @@ nav {
 .float-right {
     float: right;
 }
-.inline-block {
-    display: inline-block;
-}
 .hero-img {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-position: center;
@@ -140,6 +137,9 @@ nav {
     height: 800px;
     margin-bottom: 25px;
     width: 100%;
+}
+.inline-block {
+    display: inline-block;
 }
 .service {
     background-color: #0072bb;
