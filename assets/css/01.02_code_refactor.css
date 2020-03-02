@@ -1,0 +1,162 @@
+/* CSS reset
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ACTIVE CSS STYLING: */
+/* GLOBAL STYLE */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ELEMENT STYLES */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+aside {
+    background-color: #2589bd;
+    clear: both;
+    float: right;
+    height: 100%;
+    margin-right: 20px;
+    padding: 20px;
+    width: 20%;
+}
+body {
+    background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+footer {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 30px;
+}
+h1 { 
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 20px;
+}
+header {
+    background-color: #2a607c;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 25px;
+}
+main {
+    display: inline-block;
+    margin-left: 20px;
+    width: 75%;
+}
+nav {
+    float: right;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+
+/* CLASS STYLES */
+.benefit {
+    color: #ffffff;
+    margin-bottom: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefit-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.inline-block {
+    display: inline-block;
+}
+.hero-img {
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.service {
+    background-color: #0072bb;
+    color: #ffffff;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+.service-img {
+    max-height: 200px;
+    margin: 0px 20px;
+}
+.text-align-center {
+    text-align: center;
+}
+
+/* ID STYLES */
+#seo {
+    color: #d9dcd6;
+}
